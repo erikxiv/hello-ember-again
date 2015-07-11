@@ -1,7 +1,6 @@
 var child_process = require('child_process')
 var gulp          = require('gulp');
 var watch         = require('gulp-watch');
-var docker        = require('gulp-docker-dest');
 var tar           = require('gulp-tar');
 var plumber       = require('gulp-plumber');
 var gutil         = require('gulp-util');
